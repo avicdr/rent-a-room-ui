@@ -1,0 +1,130 @@
+.logo_text{
+    @apply  font-semibold text-lg text-white bg-black tracking-wide p-1 pl-4 pr-4 ml-11 ;
+    font-size: 33;
+}
+
+.nav_title{
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    font-size: 16px;
+    color: #1C1C1C;
+    @apply hover:font-bold;
+}
+.navbar_container{
+    /* position: fixed;
+    top: 0;
+    z-index: 1; */
+   
+    min-height: 10vh !important;
+    
+}
+.first-tap-container{
+    background-color: #F5F8FE;
+    min-height: 90vh;
+   
+  
+}
+
+.image_mobile2{
+  
+   margin-top: 205px !important;
+}
+
+.image_mobile1{
+   
+ }
+
+ .main_heading_tab{
+   @apply  text-5xl font-bold
+ }
+
+ .tab-text{
+    color: #111827;
+    font-family: 'Inter', sans-serif;
+    @apply text-left
+ }
+
+ .main_description_tab{
+   @apply  text-lg
+ }
+
+ .second-tab-heading{
+    @apply  text-5xl font-bold;
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+ }
+
+ .second-tab-container{
+    @apply h-screen flex flex-col justify-center;
+  
+ }
+
+ .redirect-img{
+    max-width: 451px;
+    max-height:308px;
+   margin-top: 14px;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+ .redirect-img1{
+    max-width: 451px;
+    max-height:344px;
+    
+   
+ }
+
+ .second-tab-img-heading{
+    font-family:"poppins";
+    @apply font-semibold text-2xl 
+ }
+
+ .third-tab-container{
+    @apply h-screen
+ }
+
+
+
+ .black_btn {
+    @apply rounded border border-black bg-black py-2.5 px-8 text-white transition-all hover:bg-white hover:text-black text-center text-sm  flex items-center justify-center;
+  }
+
+  .footer-container{
+   @apply h-screen;
+  
+   
+
+  }
+
+  .footer-top-container-one{
+   @apply w-1/5 text-left
+  }
+
+  .footer-top-container-two{
+   @apply w-3/5 text-left mt-11 rounded;
+   background-color: #F5F8FE;
+  }
+
+  .symbol-image{
+   width: 56px;
+   height: 48px;
+  }
+  .footer-bottom-container{
+  background-color:#1C1C1C;
+  }
+
+  .black_btn1 {
+   @apply rounded border border-black  py-2.5 px-8 text-white transition-all text-center text-sm  flex items-center justify-center;
+   background-color: #1C1C1C;
+ }
+
+ .black_btn1:hover{
+   background-color: #FFF;
+   color: #000;
+ }
+
+
+ .circle-container{
+   background: #32557f;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+ }

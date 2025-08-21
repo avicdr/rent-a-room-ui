@@ -1,0 +1,369 @@
+.frontpage-outer{
+  background-color: var(--main);
+  color: #EBEBEB;
+  padding: 10px 0px 30px 35px;
+  font-family: 'Gilroy';
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+
+.main-container {
+  /* border-top: 1px solid black; */
+  display: flex;
+ margin-left: 0;
+ 
+  padding: 0px;
+  margin-top: 30px;
+  /* flex-wrap: wrap; */
+  /* padding: 3px 0px; */
+  /* border-radius: 20px; */
+
+
+  color: var(--para-color);
+  /* height: 100%; */
+/* line-gap-override: 10px; */
+/* gap */
+/*  */
+}
+.left {
+  /* margin: 10px; */
+  /* padding: 10px; */
+  /* float: left; */
+  /* background-color: rgba(239, 218, 218, 0.432); */
+  /* border-radius: 10px; */
+  /* height: 450px; */
+  /* width: 500px; */
+  /* float:left; */
+ 
+ 
+  padding-top: 0px;
+  text-align: left;
+  width: 100%;
+}
+
+
+.filter_icons{
+  fill: #000000;
+}
+.frontpage-outerhead{
+    font-family: 'Gilroy-Medium';
+    padding-bottom: 8px;
+
+font-size: 24px;
+line-height: 29px;
+color: var(--para-color);
+margin-top: 3%;
+margin-left: 20px;
+}
+.frontpage-outerpara{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--info-color);
+    margin-left: 20px;
+}
+.filters{
+    display: flex;
+    padding-top: 0px;
+    margin: 0px;
+   gap: 10px;
+    align-items: center;
+    width: 100%;
+    color: var(--info-color);
+    margin-left: 20px;
+
+}
+.views-content{
+  margin-left: 13%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 18px;
+  flex-wrap: wrap;
+}
+
+.content-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10%;
+  
+}
+.content{
+    font-family: 'Gilroy-Medium';
+font-size: 16px;
+color: var(--info-color);
+line-height: 150%;
+border: 1px solid var(--info-color);
+height: fit-content;
+width: fit-content;
+padding: 5px 15px 4px 12px;
+border-radius: 5px;
+}
+.card-for-front{
+  box-shadow: var(--border-shadow);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  height:fit-content;
+  width: 96%;
+  /* margin-left: 9px; */
+  padding: 26px;
+  margin-left: 20px;
+  margin-top: 25px;
+  background-color: var(--main);
+  text-align: left;
+}
+
+.front-product-image {
+  float: left;
+  height: fit-content;
+  width: fit-content;
+  margin-right: 10px;
+}
+
+/* .product-img img {
+  border-radius: 7px 0 0 7px;
+} */
+.front-card-buttons{
+  display: inline-block;
+  /* margin-right: 10px; */
+/* flex-direction: row;
+align-items: flex-start; */
+padding: 8px 16px;
+/* gap: 10px; */
+background-color: var(--btn-back);
+/* opacity: 0.2; */
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+/* Medium grey */
+
+color: var(--info-color);
+
+border-radius: 10px;
+
+}
+
+
+.front-card-head{
+  font-family: 'Gilroy-Medium';
+
+font-size: 24px;
+line-height: 24px;
+padding-bottom: 1px;
+
+/* White */
+
+color: var(--para-color);
+}
+.front-card-headfive{
+  font-family: 'Gilroy-Medium';
+
+font-size: 16px;
+padding-bottom: 3px;
+
+/* White */
+
+color: var(--para-color);
+
+}
+.front-card-para{
+  font-family: 'Gilroy-Medium';
+
+font-size: 16px;
+padding-bottom: 10px;
+width: 85%;
+/* or 150% */
+
+
+/* Medium grey */
+
+color: var(--info-color);
+}
+
+.ren{
+  color: var(--info-color);
+}
+
+.front-heart{
+  float: right;
+  font-size: larger;
+}
+.icon{
+  border: none;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+}
+.front-info-card {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.extra{
+  color:  var(--info-color);
+  font-weight: 500;
+  
+}
+.new-colorm{
+color: var(--para-color);
+font-weight: 500;
+}
+.front-info {
+  width: 25%;
+  height: auto;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 150%;
+}
+.front-card-spa{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 270%;
+}
+
+.front-cardkebuttons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+  .right-div{
+    /* display: flex;
+  flex-direction: column;
+  align-items: stretch; */
+  /* flex: 0 0 auto; */
+    position: relative;
+    /* margin: 2px; */
+
+   height: 75vh;
+
+  
+
+
+
+  /* border:3px solid red; */
+    /* margin-bottom: 20px; */
+  }
+  .google-map{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* border: 2px solid red; */
+  top: 0;
+  left: 10px;
+  width: 100% !important;
+  height: 50%;
+  }
+
+  .frontpage-heart:hover{
+    color: black;
+    cursor: pointer;
+  }
+
+
+  .front-card-container{
+     overflow-x: auto;
+     height: 60% !important;
+     padding-right: 25px;
+  }
+
+  .user-focus{
+    font-weight: 900;
+  }
+
+  /* New css */
+  .card-for-front{
+    
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    height:fit-content;
+    width: 96%;
+    /* margin-left: 9px; */
+    padding: 26px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: var(--main);
+    text-align: left;
+  }
+
+
+
+  .description-text{
+    color: var(--info-color);
+  }
+
+
+  .main-headings{
+font-style: normal;
+font-weight: 600;
+font-size: 24px ;
+line-height: 29px;
+color: var(--para-color);
+  }
+
+  .title{
+     color: var(--para-color);
+    font-size: 18px;
+    font-family: 'Gilroy-SemiBold';
+  }
+
+  .each_filter{
+    background-color:#EBEBEB ;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 99999;
+  }
+
+  .front_page_card{
+    box-shadow: var(--border-shadow);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    height:fit-content;
+    width: 96%;
+    /* margin-left: 9px; */
+    padding: 26px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: var(--main);
+    text-align: left;
+  }
+
+
+
+  .label-form-texts{
+    font-family: "Gilroy-Medium" !important;
+    font-size: 16px !important;
+    color: #303147;
+  }
+
+  .search_text{
+    font-family: "Gilroy-Medium" !important;
+    font-size: 18px !important;
+    color: #303147;
+  }
+
+  .checkbox_filter_label{
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    color: #414141;
+  }
+
+  .filter_checkbox{
+    color: #303147;
+   width: 20px;
+   height: 20px;
+
+  }
+
+
+.user-focus-home{
+  color: var(--para-color) !important;
+}
+  

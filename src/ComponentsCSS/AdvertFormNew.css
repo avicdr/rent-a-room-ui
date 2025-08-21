@@ -1,0 +1,383 @@
+.afnpage-container{
+    padding: 20px 40px 10px 30px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.home_and_register{
+    font-family: 'Gilroy-Medium';
+
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Grey */
+
+color: #878787;
+}
+.advert-form-heading{
+    font-family: 'Gilroy-Medium';
+    
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #4B4B4B;
+margin: 20px 0px;
+}
+
+.sub-heading-advert-form{
+    font-family: 'Gilroy-Medium';
+    
+font-size: 22px;
+line-height: auto;
+/* identical to box height */
+
+
+color: #3F3F3F;
+margin-left: 10px;
+}
+
+.afn-sections{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    background: #F6F6F6;
+   
+    padding: 10px;
+    padding-left: 0px;
+}
+.afn-sections h3{
+    font-family: 'Gilroy-Medium';
+font-size: 22px;
+color: #484848;
+line-height: auto;
+/* identical to box height */
+
+
+color: #3F3F3F;
+}
+.afn-sections h4{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #878787;
+}
+.afn-sections .activee{
+    color: #44C1F0;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.1em;
+}
+.afc-section-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px 0px;
+}
+.afc-section-content-container{
+    width: 100%;
+    margin-bottom: 16px ;
+}
+.afc-section-content-container label{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 140% */
+    
+    
+    color: #303147;
+
+
+}
+.afc-section-content-container select{
+    border: 1px solid #CFD0D7;
+border-radius: 6px;
+width: 100%;
+padding: 10px 11px;
+
+/* identical to box height, or 140% */
+
+
+}
+.afc-section-content-container input{
+    border: 1px solid #CFD0D7;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px 11px;
+    font-family: 'Gilroy-Regular';
+    font-size: 14px !important;
+    line-height: 19.6px;  
+    color: #A0A0A0 !important;
+}
+
+.options{
+    font-family: 'Gilroy-Regular' !important;
+    font-size: 14px !important;
+    line-height: 19.6px !important;  
+    color: #303147 !important;
+}
+
+.afc-section-content-container textarea{
+    border: 1px solid #CFD0D7;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px 11px;
+    font-family: 'Gilroy-Regular';
+    font-size: 14px !important;
+    line-height: 19.6px;  
+    color: #A0A0A0 !important;
+}
+.length-input-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+ .length-select{
+    width: 100% !important;
+font-family: 'Gilroy-Medium' !important;
+font-size: 14px !important;
+line-height: 19.6px;
+/* identical to box height, or 140% */
+
+
+color: #A0A0A0;
+} 
+
+.afc-section-content-container textarea{
+    border: 1px solid #CFD0D7;
+    border-radius: 6px;
+    width: 100%;
+    height: 100px;
+    padding: 10px 11px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 140% */
+    
+    
+    color: #A0A0A0;
+}
+.cancel-and-submit{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px;
+
+}
+.cancel-and-submit button{
+    background: #F7F7F7;
+border: 1px solid #303147;
+border-radius: 6px;
+padding: 10px;
+width: 150px;
+}
+.afn-cancel-button{
+    font-family: 'Gilroy-Medium' !important;
+    font-size: 12px;
+    line-height: 21px;
+    /* identical to box height, or 175% */
+    
+    
+    color: #303147;
+}
+.afn-submit-button{
+font-family: 'Gilroy-Medium' !important;
+font-size: 12px !important;
+line-height: 21px;
+
+
+color: #ffffff;
+}
+.cancel-and-submit .afn-submit-button{
+    background: #303147;
+border-radius: 6px;
+}
+.afn-gardens{
+    /* display: flex;
+    flex-direction: row; */
+    width: 100%;
+    height: 70px;
+    /* gap: 20px; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap; 
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.afn-gardens-container{
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+   font-size: 12px;
+    background: #D9D9D9;
+border-radius: 6px;
+display: inline-block;
+
+}
+.afn-cross-icon{
+    float: right;
+}
+.afn-photos-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.afn-photos{
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 5px 0px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    float: left;
+}
+.afn-photos img{
+    width: 35px;
+    height: 25px;
+}
+.afn-view-image{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 163% */
+
+
+color: #44C1F0;
+}
+
+.inner-section{
+
+}
+
+.selects {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black ' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
+  
+  }
+  
+
+  .reveiw_text {
+    color: #44C1F0;
+    @apply text-xl font-medium;
+    font-family: 'Gilroy';
+    cursor: pointer;
+  }
+  
+  .modal-heading-container{
+    background-color: #F1F1F1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .review-modal-heading{
+    color: #303147;
+    font-family: 'Gilroy';
+    @apply font-semibold
+  }
+  
+  .review_sub{
+    font-family: 'Gilroy';
+  color: #000;
+  }
+  .review_label{
+    @apply text-base font-bold;
+    font-family: 'Gilroy';
+    color: #000;
+  }
+  
+  .text_area_review{
+    @apply text-base bg-white;
+    font-family: 'Gilroy';
+    color: #000;
+    border: 2px solid #878787;
+    resize: none;
+  
+  }
+  
+  .rating-active-button{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 21px;
+    background-color: #303147;
+    color: #FFFFFF !important;
+    width: 163px;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+  
+  
+  }
+  
+  .rating-button{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 21px;
+    color: #303147;
+    width: 163px;
+    border: #303147 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .label-form-text{
+    font-family: 'Gilroy-Medium' !important;
+    color: #303147 !important;
+    font-size: 14px !important;
+    line-height: 19.6px;    
+  }
+
+
+  .label-form-texts-schedule{
+    font-family: 'Gilroy-Medium' !important;
+    color: #303147 !important;
+    font-size: 18px !important;
+    line-height: 19.6px;   
+  }
+
+  .checkbox_schedule{
+    width: 18px;
+    height: 18px;
+    border-radius: 25px !important;
+  }
+
+  .or_text{
+    font-family: 'Gilroy-Regular' !important;
+    color: #4A4A4A !important;
+    font-size: 18px !important;
+    line-height: 19.6px;  
+    text-align: center;
+  }

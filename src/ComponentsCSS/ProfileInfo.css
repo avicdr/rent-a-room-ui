@@ -1,0 +1,188 @@
+.page {
+    /* max-width:90%; */
+    background-color: var(--main);
+    padding: 20px;
+   
+    text-align: left;
+  }
+  .profileInfo-paragraph{
+
+    padding: 10px 40px 20px 40px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Grey */
+
+color: #878787;
+  }
+  .ro {
+    /* margin-left: 20px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 5%;
+    align-items: flex-start;
+  }
+  
+  /* Create a column with a flexible width based on the number of columns specified (in this case, col-6 for 50% width) */
+  .halfscreen {
+    /* flex: 0 0 48%; */
+    /* background-color: red; */
+    /* max-width: 50%; */
+    width: 100%;
+  }
+  
+  /* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+  } */
+  
+  .cbody {
+    padding: 0px 1.25rem 1.25rem 20px;
+    width: 95%;
+  }
+  
+  .cardtitle {
+    font-family: "Gilroy-Medium";
+    font-size: 24px;
+    color: var(--para-color);
+  }
+  
+  .table {
+    
+    width: 100%;
+    margin-bottom: 16;
+  }
+  
+  
+  
+  /* Create a colored box with a border and rounded corners to display messages or notifications */
+  .alert {
+    width: 100%;
+    padding: 30px 30px 30px 10px;
+    margin: 0px 1rem 1rem 0rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background: var(--grey-back);
+    border-radius: 10px;
+    font-family: "Gilroy";
+    border: 1px solid var(--card-border);
+
+
+  }
+  .show-interest-alert{
+    width: 100%;
+    padding:  30px 20px;
+    /* margin: 0px 1rem 1rem 1rem; */
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background: var(--grey-back);
+border-radius: 10px;
+ border: 1px solid var(--card-border);
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+/* dark blue */
+
+color: var(--para-color);
+
+  }
+  .show-interest-alert a{
+    text-decoration: underline;
+  }
+  
+  .dp {
+    height: 50%;
+    width: 95%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+  }
+  
+  .contant-button {
+    border: 1px solid var(--card-border);
+    padding: 10px 20px;
+    background: #303147;
+border-radius: 10px;
+min-width: 40% !important;
+color: white;
+font-size: 12px;
+font-family: "Gilroy-Regular";
+
+  }
+ table td{
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 39px;
+  color: var(--para-color);
+  margin-right: -100px !important;
+
+  }
+  .bio{
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 36px;
+color: var(--para-color);
+margin-top: 10px;
+}
+  .alert h1{
+    font-family: 'Gilroy-Medium';
+font-size: 24px;
+line-height: 39px;
+color: var(--para-color);
+  }
+  .alert h3{
+    font-family: 'Gilroy-Medium';
+font-size: 20px;
+line-height: 29px;
+
+color: #878787;
+
+  }
+  .last-active{
+    float: right;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 29px;
+
+/* Grey */
+
+color: #878787;
+  }
+
+
+  td span{
+    font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 133.02%;
+/* or 32px */
+
+
+/* dark blue */
+
+color: var(--para-color);
+  }
+  
+  .cbody ul li{
+    font-family: 'Gilroy-Medium';
+
+
+font-size: 18px;
+line-height: 40px;
+
+
+color: var(--para-color);
+  }

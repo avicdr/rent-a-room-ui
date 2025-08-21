@@ -1,0 +1,78 @@
+
+
+
+.unselect_card{
+    @apply bg-white text-left pl-5 rounded-xl shadow-2xl p-3  w-1/3;
+    
+cursor: pointer;
+}
+
+.select_card{
+    @apply bg-black text-white text-left pl-5 rounded-xl shadow-2xl p-3 w-1/3;
+    font-family: 'Gilroy-Bold';
+
+    cursor: pointer;
+
+}
+
+.select_title{
+    @apply  mt-4;
+    font-family: 'Gilroy-Bold';
+    font-size: 32px;
+    color: #fff;
+
+
+}
+
+.unselect_title{
+    @apply  mt-4;
+    font-family: 'Gilroy-Bold';
+    font-size: 32px;
+    color: #000;
+
+}
+.unselect_heading{
+    @apply  mt-4;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    color: #000;
+
+}
+
+.select_heading{
+    @apply  mt-4;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.choose-button{
+    @apply text-white  w-full  py-3 ;
+    background: #303147;
+    border-radius: 5px;
+
+}
+
+.select_icon{
+    color: #fff;
+    font-size: 20px !important;
+}
+
+.unselect_icon{
+    color: #000;
+    font-size: 20px !important;
+}
+
+.sub_heading{
+    @apply text-slate-500 mt-4;
+    font-size: 14px;
+    font-family: "Gilroy-Medium";
+
+}
+
+.price_text{
+    @apply text-slate-500;
+    font-size: 16px;
+    font-family: "Gilroy-Medium";
+}

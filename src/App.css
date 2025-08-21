@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Regular"),url("./fonts/Gilroy-Regular.ttf") format("truetype");
+ }
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: local("Gilroy-Medium"),url("./fonts/Gilroy-Medium.ttf") format("truetype");
+ }
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold"),url("./fonts/Gilroy-Bold.ttf") format("truetype");
+ }
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: local("PlusJakartaSans"),url("./fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.dark-theme{
+  --main: #303147;
+  --para-color: #FFFFFF;
+  --bg-card:#303147;
+  --border-color:#FFFFFF;
+  --btn-back: #393A4D;
+  --info-color: white;
+  --border-line: black;
+  --card-border: white;
+  --border-shadow: none;
+  --grey-back:  #303147;
+  --saved-border-shadow:none;
+  --username:#fff;
+}
+
+.light-theme{
+  --main: #FFFFFF;
+  --para-color: #303147;
+  --bg-card:#fff;
+  --border-color:black;
+  --card-border: none;
+  --btn-back: #F3F3F3;
+  --info-color: #878787;
+  --border-line: none;
+  --border-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --grey-back: #F6F6F6;
+  --saved-border-shadow: 10px 10px 10px 10px rgb(242, 242, 246);
+  --username:#1F244A;
+}
+
+@font-face{
+  font-family: "Gilroy-SemiBold";
+  src: url('./fonts/Gilroy-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url("./fonts//Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url("./fonts//Gilroy-Light.ttf");
+}
+
+

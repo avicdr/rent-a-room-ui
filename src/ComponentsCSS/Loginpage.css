@@ -1,0 +1,550 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.login-container{
+    /* position: absolute; */
+ 
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 4% 11% 20% 65%;
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+ 
+}
+
+
+
+.log-email .log-pass{
+    background-color: white;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+/* identical to box height, or 106% */
+color: #303147;
+}
+
+
+.email-in{
+    width: 100%;
+    padding: 2.5% 30% 2.5% 4.5%;
+    border: 1px solid #878787;
+    ;
+    border-radius: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    
+    text-align: left;
+    
+    color: #878787;
+}
+
+.pass-in{
+    border: none;
+    padding: 0%;
+}
+
+.pass-inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5% 2.5% 2.5% 3.3%;
+    border: 1px solid #878787;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    
+    text-align: left;
+    
+    color: #878787;
+}
+
+.user-concern{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px !important;
+    
+}
+
+ .forgot-pass{
+    font-family: 'Gilroy-Medium' !important;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+text-align: center;
+color: #303147;
+}
+
+.sign{
+    color: white;
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+/* line-height: 19px; */
+/* identical to box height, or 136% */
+
+/* text-align: center; */
+
+color: #FCFCFC;
+    border: 1px solid #303147;
+   padding: 3% 42.1%;
+   border-radius: 8px;
+   background-color: #303147;
+}
+
+.or-text{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.social-media-buttons{
+     background-color: white;
+     border-radius: 8px;
+     display: flex;
+     gap: 15%;
+     justify-content: center;
+     padding: 10px;
+}
+
+.user-concern{
+    margin-top: 1%;
+}
+.user-box{
+    width: 100%;
+    
+}
+.login-buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.pass-in:focus{
+ background-color: white;
+ border: none;
+}
+
+
+/* buttons css  */
+
+.sign-nav-buttons{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 42px;
+/* or 236% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+
+color: #000000;
+background: #F2F4F6;
+border-radius: 40px;
+padding: 5px 10px ;
+margin-right: 38%;
+}
+
+.signin-pointer, .signup-pointer{
+    background: #303147;
+    color: #FFFFFF;
+    border-radius: 40px;
+    
+    padding: 4px 18px;
+}
+.toogle-signin{
+    background: #fff !important;
+    border-radius: 40px;
+    color: #000000 !important;
+    padding: 4px 18px;
+}
+
+.signup-main{
+    background-image: url(../Attributes/back.svg);  
+     font-weight: 500;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow: hidden;
+}
+.signup-container{
+    /* position: absolute; */
+ 
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 4% 11% 20% 65%;
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+ 
+}
+
+.signup-welcome-heading{
+
+
+float: left;
+color: #303147;
+
+}
+
+.signup-email .signup-pass .signup-name{
+    background-color: white;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 19px;
+/* identical to box height, or 106% */
+color: #303147;
+}
+
+
+.signup-email-in{
+    width: 100%;
+    padding: 2.5% 30% 2.5% 4.5%;
+    border: 1px solid #878787;
+    
+    border-radius: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    
+    text-align: left;
+    
+    color: #878787;
+}
+.signup-name-in{
+    width: 40%;
+    margin-right: 30px;
+    display: inline-block;
+    padding: 2.5% 3% 2.5% 4.5%;
+    border: 1px solid #878787;
+    
+    border-radius: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    
+    text-align: left;
+    
+    color: #878787;
+}
+.signup-pass-in{
+    border: none;
+    padding: 0%;
+}
+
+.signup-pass-inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5% 2.5% 2.5% 3.3%;
+    border: 1px solid #878787;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    
+    text-align: left;
+    
+    color: #878787;
+}
+
+.signup-user-concern{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.signup-btn{
+    border: 2px solid #303147;
+    padding: 3% 46%;
+    border-radius: 8px;
+    background-color: #303147;
+    height:50px;
+}
+.signup-btn-2{
+    border: 2px solid #303147;
+    padding: 3% 42.5%;
+    border-radius: 8px;
+    background-color: #303147;
+    height:50px;
+}
+
+.signup-or-text{
+    text-align: center;
+}
+
+.signup-social-media-buttons{
+     border: 1px solid #303147;
+     background-color: white;
+     border-radius: 8px;
+     display: flex;
+     gap: 10%;
+     justify-content: center;
+     padding: 10px ;
+}
+
+.signup-user-concern{
+    margin-top: 1%;
+}
+.signup-user-box{
+    width: 100%;
+    margin: 12px 0px;
+}
+.signup-buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.signup-pass-in:focus{
+ background-color: white;
+ border: none;
+}
+
+
+
+
+
+.name-box-signup{
+    margin: 0px;
+}
+
+.name-user-box-signup{
+    display: flex;
+    gap: 70px;
+    
+}
+
+
+
+/* New CSS */
+
+.login-main-container{
+          min-height: 100vh;
+          background-size: cover;
+          background-position: center;
+          font-family: "Gilroy";
+    }
+
+    .welcome-heading{
+        font-family: 'Gilroy-Bold' !important;
+
+        font-size: 52px;
+        line-height: 42px;
+        
+        color: #303147;
+        }
+.sign-nav-buttons{
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+display: flex;
+align-items: center;
+letter-spacing: 0.5em;
+color: #000000;
+background: #F2F4F6;
+border-radius: 40px;
+padding: 5px 10px ;
+margin-right: 38%;
+width: 210px;
+}
+
+.signup-bt{
+    border-radius: 8px;
+    background-color: #303147;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+
+    color: #fff;
+    padding: 14px;
+    
+}
+
+.input-border{
+    border: 1.6px solid #878787 ;
+    margin-top: 10px;
+}
+
+.text-color{
+    color: #878787;
+
+}
+
+
+
+
+.signup-social-media-buttons{
+    border: 1px solid #303147;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    gap: 10%;
+    padding: 10px ;
+}
+
+.login-background{
+    background-color: #303147;
+    margin-right: 40px;
+}
+
+
+.sub-heading-login{
+    font-family: "Gilroy-SemiBold";
+    font-size: 24px;
+    line-height: 42px;
+    color: #000;
+
+}
+
+.login-label{
+    font-family: 'Gilroy-Medium' !important;
+    color: #5A5A5A !important;
+    font-size: 18px !important;
+  
+}
+
+.input-text-login{
+    font-size: 14px !important;
+    color: #878787 !important;
+    font-family: "Gilroy-Medium";
+  
+}
+
+.remember-text{
+    color: #303147;
+    font-family: 15px;
+    font-family: 'Gilroy-Medium' !important;
+
+}
+
+
+.dont_account{
+    color: #303147;
+    font-family: 'Gilroy-Medium' !important;
+    font-size: 20px;
+}
+
+.forget-heading{
+    font-family: "Gilroy-Regular";
+    font-size: 42px;
+    line-height: 52px;
+    color: #1F244A;
+}
+
+.success-heading{
+    font-family: "Gilroy-Regular";
+    font-size: 45px;
+    line-height: 52px;
+    color: #1F244A;
+}
+
+.forget-sub{
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    line-height:24px;
+    color: #828282;
+}
+
+.resend_text{
+    font-family: "Gilroy-Regular";
+    font-size: 14px;
+    line-height:20px;
+    color: #828282;
+
+}
+
+
+.passcode-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: auto;
+	margin: 0 auto;
+	input {
+		width: 50px;
+		height: 50px;
+		padding: 0;
+		margin-right: 5px;
+		text-align: center;
+		border: 1px solid gray;
+		border-radius: 5px;
+		&:last-child {
+			margin-right: 0;
+		}
+		&::-webkit-inner-spin-button, 
+		&::-webkit-outer-spin-button { 
+			-webkit-appearance: none;
+			appearance: none;
+			margin: 0;
+		}
+		&:focus,
+		&.focus {
+			border-color: green;
+			outline: none;
+			box-shadow: none;
+		}
+	}
+}
+
+.verify_code{
+    height: 108px;
+    width: 84px;
+    font-size: 36px;
+    font-family: "Gilroy-Regular";
+    text-align: center;
+    border: 1px solid #9BADCA;
+}

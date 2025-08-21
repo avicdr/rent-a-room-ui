@@ -1,0 +1,211 @@
+.signup-main{
+    background-image: url(../Attributes/back.svg);  
+     font-weight: 500;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow: hidden;
+}
+.signup-container{
+    /* position: absolute; */
+ 
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 4% 11% 20% 65%;
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+ 
+}
+
+.signup-welcome-heading{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+/* line-height: 42px; */
+/* or 82% */
+
+/* letter-spacing: -0.01em; */
+float: left;
+color: #303147;
+
+}
+
+.signup-email .signup-pass .signup-name{
+    background-color: white;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 19px;
+/* identical to box height, or 106% */
+color: #303147;
+}
+
+
+.signup-email-in{
+    width: 100%;
+    padding: 2.5% 30% 2.5% 4.5%;
+    border: 1px solid #878787;
+    
+    border-radius: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    
+    text-align: left;
+    
+    color: #878787;
+}
+.signup-name-in{
+    width: 40%;
+    margin-right: 30px;
+    display: inline-block;
+    padding: 2.5% 3% 2.5% 4.5%;
+    border: 1px solid #878787;
+    
+    border-radius: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    
+    text-align: left;
+    
+    color: #878787;
+}
+.signup-pass-in{
+    border: none;
+    padding: 0%;
+}
+
+.signup-pass-inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5% 2.5% 2.5% 3.3%;
+    border: 1px solid #878787;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    
+    text-align: left;
+    
+    color: #878787;
+}
+
+.signup-user-concern{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-me, .forgot-pass{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+display: flex;
+flex-direction: row;
+
+text-align: center;
+color: #303147;
+}
+
+.signup{
+    color: white;
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+/* line-height: 19px; */
+/* identical to box height, or 136% */
+
+/* text-align: center; */
+
+color: #FCFCFC;
+
+}
+.signup-btn{
+    border: 2px solid #303147;
+    padding: 3% 46%;
+    border-radius: 8px;
+    background-color: #303147;
+    height:50px;
+}
+.signup-btn-2{
+    border: 2px solid #303147;
+    padding: 3% 42.5%;
+    border-radius: 8px;
+    background-color: #303147;
+    height:50px;
+}
+
+.signup-or-text{
+    text-align: center;
+}
+
+.signup-social-media-buttons{
+     border: 1px solid #303147;
+     background-color: white;
+     border-radius: 8px;
+     display: flex;
+     gap: 10%;
+     justify-content: center;
+     padding: 10px ;
+}
+
+.signup-user-concern{
+    margin-top: 1%;
+}
+.signup-user-box{
+    width: 100%;
+    margin: 12px 0px;
+}
+.signup-buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.signup-pass-in:focus{
+ background-color: white;
+ border: none;
+}
+
+
+input:focus{
+    outline: none;
+}
+
+
+.name-box-signup{
+    margin: 0px;
+}
+
+.name-user-box-signup{
+    display: flex;
+    gap: 70px;
+    
+}

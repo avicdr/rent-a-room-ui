@@ -1,0 +1,272 @@
+.main-graph-container {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+   
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    border: 1px solid var(--card-border);
+    background-color: var(--grey-back);
+    padding: 20px;
+    color: #303147;
+}
+
+.first-line-graph{
+    max-height: 30vh;
+}
+
+.graph_heading {
+    color: var(--para-color);
+    @apply text-2xl
+}
+
+.actives {
+    background-color: var(--para-color) !important;
+    color: var(--bg-card) !important;
+
+}
+
+.first-graph-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+.first-graph-container p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    /* dark blue */
+
+    color: #303147;
+}
+
+.period-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.period-button {
+    background: transparent;
+    border: 1px solid var(--para-color);
+    border-radius: 10px;
+    padding: 8px;
+    width: 87px;
+    font-family: 'Gilroy-Medium';
+   
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* dark blue */
+
+    color: var(--para-color);
+}
+
+/* .period-button .active{
+    background: #303147;
+border-radius: 5px;
+color: white;
+} */
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 20px;
+    padding-left: 15%;
+    justify-content: space-between;
+    /* border-radius: 50px; */
+}
+
+.little-graph {
+    border-radius: 20px;
+    width: 45%;
+    padding: 10px;
+}
+
+.second-graph-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.share-icon {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* dark blue */
+
+    color: #303147;
+}
+
+.little-graph p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* Grey */
+
+    color: #878787;
+}
+
+.little-graph span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    /* dark blue */
+
+    color: #303147;
+}
+
+
+.fullGraphPage {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    /* dark blue */
+
+    color: #303147;
+
+}
+
+.advert_list_header{
+    @apply text-3xl text-left;
+    color:#000;
+    font-family: 'Gilroy-Medium';
+    
+}
+
+.advert_list{
+    min-width: 100%;
+    border: 1px solid var(--card-border);
+    background-color: var(--grey-back); 
+    @apply flex ;   
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active_advert_list{
+    background-color: #D6D6D6;
+}
+
+.list_container_advert{
+    max-height: 18vh;
+    overflow-x: scroll;
+}
+
+.list_text_color{
+    color: var(--para-color);
+    font-family: "Gilroy-Medium" !important;
+    font-size: 20px;
+}
+
+.list_text_color2{
+    color: var(--para-color);
+    font-family: "Gilroy-Medium" !important;
+    font-size: 14px;
+
+}
+
+.view_list{
+    max-width: 30%;
+    max-height: 50%;
+    border: 1px solid var(--card-border);
+    background-color: var(--grey-back); 
+    border-radius: 10px;
+   
+}
+ @media screen and (max-width:768px) {
+    .view_list{
+        max-width: 100%;
+    }
+    
+ }
+
+ .contact_button{
+    background-color: var(--para-color) !important;
+    color: var(--bg-card) !important;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    width: 30%;
+ }
+
+ .view_list_container{
+    max-height: 18vh;
+    overflow-y: scroll;
+    
+ }
+
+ .view_text{
+    font-size: 14px;
+    font-family: "Gilroy-Medium";
+ }
+
+ .username_text{
+    font-family: 'Gilroy-Medium' !important;
+    font-size: 16px !important;
+    color: var(--username);
+ }
+
+ .repeated_text{
+    font-family: 'Gilroy-Medium' !important;
+    font-size: 16px !important;
+    color: #000;
+ }

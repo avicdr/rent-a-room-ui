@@ -1,0 +1,771 @@
+.AdvertDetails-links{
+  text-align: left;
+  padding-top: 1%;
+  width: 100%;
+  height: auto;
+  background-color: var(--main);
+  overflow: hidden;
+  font-family: 'Gilroy' !important;
+
+
+}
+
+.advert-links{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Grey */
+
+color: #878787;
+padding-left: 4%;
+}
+
+.AdvertRoomsDetails-maincontainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 4% 4% 4%;
+  gap: 5%;
+
+}
+
+/* review css */
+
+.review-container{
+ 
+  background-color: var(--grey-back);
+  text-align: left;
+  color: var(--para-color);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
+.review-internal-container{
+  width: 99%;
+  display: flex;
+  overflow-x: auto !important;
+  scroll-behavior: smooth;
+  
+}
+.review-container h5{
+
+margin-top: 0px !important;
+
+/* Blue rw */
+
+}
+
+.rating-stars{
+  color: #FFB400;
+}
+
+.review-filter{
+  font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: var(--para-color);
+float: right;
+}
+
+.review-third{
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  align-items: center;
+}
+
+.review-font-black{
+  font-family: "Gilroy-Regular";
+  font-size: 18px;
+  color: #000;
+}
+
+.customer-numberofviews{
+  font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+
+
+/* dark blue */
+
+color: var(--para-color);
+}
+
+.see-all{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 5px;
+text-decoration-line: underline;
+
+/* Pink */
+
+color: #E62686;
+}
+
+.reviewed-profile{
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  width: 100%;
+  
+  justify-content: center;
+  align-items: center;
+}
+.reviewed-name{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 150%;
+color: var(--para-color);
+
+}
+.reviewed-personphoto{
+  width: 32px;
+  height: 32px;
+}
+.reviewed-location{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.14px;
+
+/* Pink */
+
+color: #44C1F0;
+
+}
+
+.ratings{
+  padding-left: 25%;
+}
+
+.best-place{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 157%;
+/* identical to box height, or 22px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.1px;
+
+/* Light/Text/Primary */
+
+color: var(--para-color);
+padding-bottom: 2%;
+}
+.reviewed-desc{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.4px;
+
+color: var(--para-color);
+width: 100%;
+padding-bottom: 3%;
+}
+
+.reviewed-photos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4%;
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.reviewed-photo-desc{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+/* line-height: 150%; */
+/* identical to box height, or 15px */
+
+/* letter-spacing: 0.15px; */
+
+/* Light/Text/Disabled */
+
+color:var(--para-color);
+display: flex;
+flex-direction: row;
+gap: 5%;
+align-items: center;
+justify-content: space-between;
+}
+.review-options{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3%;
+}
+.checkbox-line{
+ color: var(--para-color);
+ 
+  height: 5px;
+  
+}
+/* options css  */
+.ad-label-checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.ad-checkbox {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+
+.ad-checkbox:checked + .label-text {
+  color: red;
+}
+
+.date-review{
+  padding-left: 50%;
+}
+
+/* left container css */
+.AdvertRooms-left{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main);
+  gap: 5%;
+}
+
+/* first border css */
+.rooms-details{
+ padding: 1% 1% 3% 1%;
+ background-color: var(--grey-back);
+ border-radius: 10px;
+ text-align: left;
+ border: 1px solid var(--card-border);
+ 
+}
+.rooms-desc{
+  font-family: 'Gilroy-Medium';
+  font-size: 28px;
+font-size:auto;
+line-height: 39px;
+
+/* dark blue */
+
+color: var(--para-color);
+
+}
+.deliever-date{
+  font-family: 'Gilroy-Regular';
+
+font-size: 20px;
+line-height: auto;
+padding-top: 2%;
+/* Grey */
+
+color: var(--info-color);
+}
+
+.text_report{
+  font-family: 'Gilroy-Regular';
+font-size: 16px;
+line-height: auto;
+}
+
+/* second border css */
+.rooms-location{
+  background-color: var(--grey-back);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.AdvertRoomsDetails-map{
+  border: 2px solid transparent;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  width: 55%;
+  height: 100%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.Advert-room-maploc{
+  /* H3 - Medium */
+
+font-family: 'Gilroy-Medium';
+
+font-size: 20px;
+line-height: auto;
+
+/* dark blue */
+
+color: var(--para-color);
+width: 90%;
+
+}
+.AdvertRooms-mapView{
+  font-family: 'Gilroy-Medium';
+
+font-size: 16px;
+line-height: auto;
+
+
+
+}
+.room_details_heading{
+  font-family: 'Gilroy-Regular';
+  font-size: 20px;
+  color: #636363;
+  line-height: auto;
+}
+
+.rooms-location-right{
+  padding-bottom: 5%;
+  padding-left: 2%;
+}
+
+/* table css */
+.roomsDetails-tab{
+
+
+/* dark blue */
+
+width: 69%;
+color: var(--para-color);
+height: auto;
+
+
+}
+
+.roomsDetails-tab th{
+  padding: 0px;
+}
+
+.room_details_headings{
+  font-family: 'Gilroy-SemiBold';
+ color: #3D3D3D;
+font-size: 24px;
+}
+
+.roomsDetails-data{
+font-family: 'Gilroy-Medium';
+
+font-size: 24px;
+line-height: auto;
+padding: 0%;
+/* dark blue */
+
+color: #494949;
+}
+
+/* feature table  */
+.features-tab{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+margin-top: -2%;
+/* dark blue */
+text-align: left;
+color: white;
+}
+.features-data{
+  color: var(--para-color);
+  padding: 0px;
+  font-family: 'Gilroy';
+  list-style-type: circle;
+
+  margin: 0px;
+}
+.features-tab th{
+
+  padding: 0px;
+  color: var(--para-color);
+}
+/* youtube link css */
+.rooms-youtube-links{
+  text-align: left;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+/* Blue rw */
+
+color: var(--para-color);
+}
+.youtube-photo{
+  width: fit-content;
+  height: fit-content;
+}
+
+
+
+
+/* right container  */
+.AdvertRooms-right{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.AdvertRooms-photo{
+  width: 100%;
+  height: auto;
+}
+
+.AdvertRoomsDetails-profile{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10%;
+  padding: 0% 5% 3% 1%;
+  margin-top: 5%;
+  
+}
+.AdvertRooms-person-photo{
+  width: 96px;
+height: 96px;
+
+}
+.contact-person{
+  display: flex;
+  flex-direction: column;
+  gap: 30%;
+  text-align: left;
+padding: 4%;
+}
+.person-name{
+  font-family: 'Gilroy-Medium';
+
+font-size: 24px;
+
+/* dark blue */
+
+color:#333333;
+}
+
+.name_title{
+  font-family: 'Gilroy-Medium';
+  color:#44C1F0;
+
+font-size: 12px;
+}
+
+.person-contact-button{
+  border: 1px solid var(--card-border);
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background: #303147;
+border-radius: 14px;
+font-family: 'Gilroy-Medium';
+padding: 10px;
+font-size: 16px;
+max-width: 80% !important;
+/* identical to box height, or 24px */
+
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.Detailsof-room{
+  font-family: 'Gilroy-Regular';
+
+font-size: 20px;
+
+/* dark blue */
+text-align: left;
+padding: 2%;
+width: 100%;
+height: auto;
+text-justify: auto;
+color: var(--para-color);
+}
+
+
+.advertroom-saved-borderfirst{
+  border: 1px solid var(--card-border);
+  background-color: var(--grey-back);
+  font-family: 'Gilroy-Medium';
+ 
+  font-size: 20px;
+  color: var(--para-color);
+  padding: 1% 20% 1% 2%;
+  text-align: left;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.advertroom-second-border{
+  border: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 10%;
+  background: var(--grey-back);
+  border-radius: 15px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--para-color);
+  padding: 2% 0% 2% 1%;
+  width: 80%;
+  margin-top: 5%;
+
+}
+
+.advertroom-saved-desc{
+  padding-bottom: 3%;
+}
+
+
+.advert-room-saved-paras{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+}
+.roomsDetails-row{
+  margin-top: -200px !important;
+}
+
+.advertroom-show-interest{
+  text-decoration: underline; 
+  color: #44C1F0;
+}
+
+
+.hall-photo{
+  width: fit-content;
+  height: fit-content;
+}
+.ADgoogle-map{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.each-review{
+  margin-top: 10px;
+  min-width:800px !important;
+  padding: 10px;
+  background-color: var(--bg-card);
+  border: #FFFFFF 1px solid;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+ 
+}
+
+.reviewed-persondetails{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.reivew-profile{
+  display: flex;
+}
+
+.profile-name{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-arrow{
+  
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 24px;
+  
+}
+
+.page-text{
+  
+}
+
+
+.afn-cancel-button{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  color: #303147;
+}
+.afn-submit-button{
+font-family: 'popins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #ffffff;
+background:#303147;
+}
+
+.report-cancel-button{
+  font-family: 'Gilroy-Medium';
+  font-size: 12px;
+  line-height: 21px;
+  color: #303147;
+  width: 163px;
+  border: #303147 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.report-submit-button{
+  font-family: 'Gilroy-Medium';
+  font-size: 12px;
+  line-height: 21px;
+  background-color: #303147;
+  color: #FFFFFF;
+  width: 163px;
+  border: #fff 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.reveiw_text {
+  color: #44C1F0;
+  @apply text-xl font-medium;
+  font-family: 'Gilroy';
+  cursor: pointer;
+}
+
+.modal-heading-container{
+  background-color: #F1F1F1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.review-modal-heading{
+  font-family: "Gilroy-SemiBold";
+  font-size: 24px;
+  color: #303147;
+}
+
+.review_sub{
+  font-family: 'Gilroy-Regular';
+  font-size: 16px;
+color: #000;
+}
+.review_label{
+  @apply text-base;
+  font-family: 'Gilroy-Bold';
+  color: #000;
+}
+
+.text_area_review{
+  @apply text-base bg-white;
+  font-family: 'Gilroy';
+  color: #000;
+  border: 2px solid #878787;
+  resize: none;
+
+}
+
+.rating-active-button{
+  font-family: 'Gilroy-Regular';
+  font-size: 12px;
+  line-height: 21px;
+  background-color: #303147;
+  color: #FFFFFF !important;
+  width: 163px;
+  border: #fff 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+
+
+}
+
+.rating-button{
+  font-family: 'Gilroy-Regular';
+  font-size: 12px;
+  line-height: 21px;
+  color: #303147;
+  width: 163px;
+  border: #303147 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.report_heading{
+  font-family: "Gilroy-SemiBold";
+  font-size: 24px;
+  color: #000;
+}
+
+.report_text{
+  font-family: "Gilroy-Regular";
+  font-size: 20px;
+  color: #414141;
+}
+
+.feedback_heading{
+  
+
+}

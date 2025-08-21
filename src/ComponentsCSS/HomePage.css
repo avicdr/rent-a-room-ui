@@ -1,0 +1,207 @@
+/* New CSS */
+
+.new-container {
+  min-height: 100vh;
+}
+
+.bg-container {
+  background-image: url("../Attributes/low-view-modern-skyscrapers-office-buildings_23-2148836791 1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-heading {
+  color: #303147;
+  font-size: 64px;
+  @apply font-black;
+
+  font-weight: 900;
+  font-family: "Gilroy-Bold";
+}
+
+.card-heading {
+  color: #303147 !important;
+  font-size: 24px !important;
+  font-family: "Gilroy-Medium";
+}
+
+.card-price {
+  color: #303147;
+  @apply text-2xl;
+  font-family: "Gilroy-SemiBold";
+}
+
+.sub-heading {
+  color: #303147;
+  @apply text-2xl;
+  font-family: "Gilroy-medium";
+}
+
+.search-border {
+  border: 2px solid #44c1f0 !important;
+  border-radius: 10px;
+}
+
+.drop-border {
+  border-left: 2px solid #44c1f0 !important;
+  margin: 0px;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  width: 166px;
+}
+
+.find-button {
+  margin-left: 30px;
+  width: 7rem;
+  height: 100%;
+  padding: 15px 20px;
+  color: white;
+  background: #303147;
+  border-radius: 11px;
+  font-size: 24px;
+  font-family: "Gilroy-Medium";
+  height: 62px;
+}
+
+.city {
+  color: #303147 !important;
+  font-family: "Gilroy-SemiBold";
+  font-size: 18px !important;
+}
+
+.city-heading {
+  color: #303147;
+  @apply text-4xl mb-11;
+  font-family: "Gilroy-Medium";
+}
+
+.matrixx {
+  margin: 50px 0px 0px 0px;
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: 400;
+  @apply text-2xl;
+  line-height: 29px;
+  color: #000000;
+}
+
+.matrix {
+  font-family: "Gilroy-Medium";
+  @apply text-5xl;
+  color: #303147;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+.pic3 {
+  margin: 40px auto;
+  width: 80%;
+  /* align-items: center; */
+}
+.s4xl {
+  font-family: "Gilroy-Medium";
+  @apply text-3xl;
+  color: #303147;
+}
+
+.text_4xl {
+  font-size: 22px;
+  font-family: "Gilroy-Regular";
+  color: #494a67;
+}
+
+.random-room {
+  margin: 20px auto;
+  width: 90%;
+  padding: 20px 10px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-between;
+  gap: 70px;
+}
+.small-room h1 {
+  text-align: center;
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 36px;
+  line-height: 42px;
+
+  /* dark blue */
+
+  color: #303147;
+}
+.small-room p {
+  font-family: "Gilroy";
+}
+
+.card-text {
+  color: #57597b;
+  font-size: 14px;
+  font-family: "Gilroy-Medium";
+}
+
+.card-icon {
+  color: #303147;
+  font-size: 28px !important;
+}
+
+.new-ren {
+  color: #878787;
+  font-size: 12px;
+  font-family: "Gilroy-Medium";
+}
+
+.home-card-buttons {
+  padding: 8px 16px;
+  background: #f3f3f3;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #878787;
+  border-radius: 10px;
+  font-family: "DM Sans";
+}
+
+.user-focus-home {
+  color: #303147;
+  font-size: 12px;
+  font-family: "Gilroy-SemiBold";
+}
+
+.drop_text {
+  @apply text-xl;
+  font-family: "Gilroy-Medium";
+  color: #303147;
+}
+
+.card-icons {
+  color: #878787;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.card-list {
+  @apply text-left text-base   tracking-wider  mt-3;
+  font-family: "Gilroy-Regular";
+  color: #878787;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .resp-flex-column{
+    flex-direction: column;
+  }
+
+  .resp-ml-0{
+    margin-left: 0 !important;
+  }
+  .resp-mr-0{
+    margin-right: 0 !important;
+  }
+  .resp-m-auto{
+    margin: auto;
+  }
+}

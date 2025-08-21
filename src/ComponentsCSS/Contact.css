@@ -1,0 +1,61 @@
+.bg-card-contact{
+   
+    min-height: 100vh;
+}
+
+.card-details{
+    background-color: var(--para-color);
+    min-height: 80vh;
+    width: 40%;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.card{
+    background: #F6F6F6;
+    margin: 50px;
+    max-height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    min-height: 80vh;
+}
+
+.ptext{
+    color: var(--bg-card);
+    text-align: left;
+    font-size: 12px;
+}
+
+.htext{
+    color: var(--bg-card);
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.contact-input{
+    border: 0px;
+    width: 400px;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    border-radius: 0px;
+}
+
+.label-contact{
+    color: var(--para-color);
+    text-align: left !important;
+    margin-bottom: 10px;
+}
+
+.send-buttton{
+    background-color: var(--para-color);
+    color: var(--bg-card);
+    width: 200px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.icon{
+   color: #fff;
+}

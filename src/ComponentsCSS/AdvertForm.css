@@ -1,0 +1,253 @@
+/* *{
+    font-family: Gilroy;
+    color: #303147;
+    font-weight: 600;
+    font-size: 24px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+   
+}
+a{
+    font-family: 'Gilroy';
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.head{
+    float: left;
+    display: flex;
+}
+
+.name-input{
+    border:  solid black;
+    border-radius: 10px;
+}
+
+.form-block{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.fname{
+    display: grid;
+    grid-template-columns: 30px 30px;
+    column-gap: 100px;
+} */
+.mian-container-advertform{
+    min-height: 100vh;
+    background: var(--main);
+}
+.contact-container{
+    padding: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+.alinks-div{
+    margin-left: 5%;
+    margin-top: 30px;
+}
+/* a{
+    font-family: 'Gilroy';
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+} */
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.fmessage{
+    text-align: left;
+    font-family: 'Gilroy-Medium';
+/* font-style: normal; */
+/* font-weight: 500; */
+font-size: 24px;
+line-height: 29px;
+
+/* dark blue */
+
+color: var(--para-color)
+
+}
+
+.textBox{
+    font-family: "Gilroy-Medium" !important;
+    font-size: 16px !important;
+    color: var(--para-color);
+}
+
+.msgTextBox{
+    width: 45%;
+    /* height: 50%; */
+}
+.right-container{
+    font-family: 'Gilroy-Medium';
+    color: var(--para-color) !important;
+
+
+
+    font-size: 20px;
+    background: var( --grey-back);
+    border: 1px solid var(--card-border);
+
+
+}
+
+.img{
+    border-radius: 80%;
+   
+}
+
+.image_profile{
+padding: -20px;
+}
+
+
+.fname{
+    font-family: 'Gilroy-Medium';
+    color: var(--para-color);
+    font-size: 24px;
+    
+}
+/* h2{
+   float: left;
+    font-family: 'Roboto';
+    color:#303147;
+    font-weight: 500;
+    font-size: 24px;
+} */
+
+textarea {
+    margin: 10px 0px;
+    width: 800px;
+    height: 350px;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    background: var( --main);
+    border: 1px #878787 solid 1px;
+  
+/* Grey */
+
+border: 1px solid #878787;
+
+border-radius: 8px;
+    /* background-color: #f8f8f8; */
+    font-family: 'Gilroy-Regular';
+resize: none;
+font-size: 24px;
+line-height: 29px;
+
+/* Grey */
+
+color: #878787;
+/* identical to box height, or 75% */
+
+
+/* Grey */
+
+color: #878787;
+  }
+
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    text-align: left;
+    width: 45%;
+}
+
+.submit-button-m {
+    font-family: 'Gilroy-Medium';
+   color: var(--main);
+   
+    font-size: 18px;
+    background: var( --para-color);
+    border-radius: 12px;
+    width: 224px;
+    height: 49px;
+    margin-top: 20px;
+    border: 1px solid var(--card-border);
+    
+  }
+
+  .pic-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0px;
+
+  }
+  .two-containers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+  }
+  .right-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin-top: 50px;
+    padding: 20px 20px;
+    width: 90%;
+    border-radius: 5px;
+    text-align: left;
+
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* dark blue */
+
+color: #303147;
+
+  }
+  .right-container img{
+    float: right;
+    
+  }
+  
+
+  .alinks{
+    
+    padding:  0px;
+    font-family: 'Gilroy-Medium';
+/* font-style: normal; */
+/* font-weight: 500; */
+font-size: 16px;
+line-height: 150%;
+float: left;
+/* identical to box height, or 24px */
+
+
+/* Grey */
+
+color: #878787;
+
+  }
+
+  .AdvertForm-link{
+    margin-Left: 0;
+    text-Decoration: underline;
+
+}
+
+.right_text{
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    color: var(--para-color);
+}
