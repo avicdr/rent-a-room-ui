@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🏠 Rent‑A‑Room Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🌟 Key Features
 
-## Available Scripts
+- 🌍 **Global Reach**: Available in many countries including the United States, UK, Malaysia, Australia, Singapore, Canada, and more.  
+- 🏘 **Flexible Listings**: Supports various property types — rooms (single or double), apartments, houses, condos, efficiencies.  
+- 🔑 **Dual Roles**:
+  - **List your property** — earn by renting out your space  
+  - **Search for rentals** — view listings or post as a tenant  
+- 👤 **Tenant & Landlord Access**:
+  - Tenant login page with account, password services, and advertising options.  
+- 🆕 **Recent Listings Display**: Highlights newest rooms, apartments, and houses with pricing and location info.  
+- ⭐ **Trust Score**: As of 2025, rent‑aroom.com holds a trust rating of 7.1/10, based on 77 user ratings.  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠 Suggested Tech Stack (Example)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React.js / Vue.js / Angular  
+- **Backend**: Node.js + Express / Django / Laravel  
+- **Database**: MySQL, PostgreSQL, or MongoDB  
+- **Auth**: Role-based (tenants vs property listers)  
+- **UI Components**: Country selector, property grid/map, listing form, login form  
+- **Admin Tools**: Manage listings, reviews, and users  
+- **Security**: HTTPS, validation, session handling  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📂 Example Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+rent-aroom/
+│── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── SearchResults.jsx
+│   │   ├── ListingDetail.jsx
+│   │   └── Login.jsx
+│   ├── services/
+│   ├── App.jsx
+│   └── index.jsx
+├── package.json
+├── README.md
+└── .env
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Installation & Setup (Sample)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/yourusername/rent-aroom-clone.git
+cd rent-aroom-clone
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Frontend setup
+cd ../frontend
+npm install
+npm start
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ✨ Feature Highlights
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🌍 **Country Picker** for global reach  
+- 🏘 **Property Type Filtering**  
+- 🆕 **Quick Search & Latest Listings**  
+- 👤 **User Accounts** for tenants & landlords  
+- ⭐ **Trust Ratings** displayed  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📜 License & Ownership
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This README is a **template** for documentation purposes and is **not affiliated** with the official Rent‑a‑Room platform.
